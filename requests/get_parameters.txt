@@ -1,0 +1,67 @@
+Request:
+{ upgrade: false
+, httpVersionMajor: 1
+, socket: 
+   { _idlePrev: 
+      { _idlePrev: [Circular]
+      , _idleNext: [Circular]
+      , callback: [Object]
+      , repeat: 120
+      }
+   , secure: false
+   , _events: { error: [Object], timeout: [Object] }
+   , _writeQueueEncoding: [ [length]: 0 ]
+   , _idleTimeout: 120000
+   , onend: 
+      { [Function]
+        [arguments]: null
+      , [length]: 0
+      , [name]: ''
+      , [prototype]: [Object]
+      , [caller]: null
+      }
+   , remoteAddress: '127.0.0.1'
+   , server: 
+      { _events: [Object]
+      , fd: 5
+      , watcher: [Object]
+      , type: 'tcp4'
+      }
+   , fd: 6
+   , _writeQueue: [ [length]: 0 ]
+   , readable: true
+   , _readWatcher: { callback: [Object] }
+   , writable: true
+   , _writeWatcher: { socket: [Circular], callback: [Object] }
+   , ondata: 
+      { [Function]
+        [arguments]: [Object]
+      , [length]: 3
+      , [name]: ''
+      , [prototype]: [Object]
+      , [caller]: [Circular]
+      }
+   , remotePort: 49380
+   , type: 'tcp4'
+   , _idleNext: [Circular]
+   , _idleStart: Sat, 15 May 2010 00:07:39 GMT
+   }
+, method: 'GET'
+, headers: 
+   { 'user-agent': 'curl/7.19.6 (i386-apple-darwin9.8.0) libcurl/7.19.6 zlib/1.2.3'
+   , accept: '*/*'
+   , host: '127.0.0.1:8001'
+   }
+, httpVersion: '1.1'
+, connection: [Circular]
+, client: [Circular]
+, statusCode: null
+, httpVersionMinor: 1
+, url: '/?param1=val1'
+}
+URL:
+{ query: 'param1=val1'
+, href: '/?param1=val1'
+, pathname: '/'
+, search: '?param1=val1'
+}
